@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Truck, Heart, User, MessageSquare } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -18,15 +19,13 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Trusted Solutions for a <br />
-                Healthier Tomorrow.
+                Trusted Solutions for a Healthier Tomorrow.
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Quality is at the heart of everything we do. From personalized care to cutting-edge medical solutions, we are committed to delivering excellence that enhances lives and builds trust.
-              </p>
-              <Button className="b rounded-[12px] bg-gradient-to-r from-[#22A295] to-[#6AD8CD] hover:bg-teal-600  transition-colors duration-200 text-white px-8 py-3 text-lg">
+                Medikart is a trusted health and wellness product delivery company committed to bringing high-quality medical essentials, wellness items, and personal care products directly to your doorstep. With a focus on reliability, safety, and customer satisfaction, Medicard ensures timely delivery and access to a wide range of trusted health solutions.              </p>
+              <Link to="/shop"><Button className="b rounded-[12px] bg-gradient-to-r from-[#22A295] to-[#6AD8CD] hover:bg-teal-600  transition-colors duration-200 text-white px-8 py-3 text-lg">
                 Order Now →
-              </Button>
+              </Button></Link>
             </div>
             <div className="flex justify-center">
               <img 
@@ -47,9 +46,7 @@ const HomePage = () => {
               Services <span className="text-teal-500">We Offer</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              At Medicart, we offer tailored medical services designed to meet all your healthcare needs efficiently. 
-              Explore our diverse range of offerings and find the right fit for you and your family's specific 
-              healthcare needs.
+              In today’s fast-paced world, your health deserves the utmost attention and convenience. That’s why HealNet offers a suite of integrated services designed to cater to your healthcare needs digitally:
             </p>
           </div>
           
@@ -65,7 +62,7 @@ const HomePage = () => {
                       Home Delivery of Medical Products
                     </h3>
                     <p className="text-gray-600">
-                      Fast and reliable delivery of medicines, supplements, and wellness items to your door-step.
+                      Fast and reliable delivery of medicines, supplements, and wellness items to your doorstep.
                     </p>
                   </div>
                 </div>
@@ -83,7 +80,7 @@ const HomePage = () => {
                       Health & Wellness Supply
                     </h3>
                     <p className="text-gray-600">
-                      Distribution of health & wellness products, Nutritional supplements & Medical equipment.
+                      Distribution of health & Wellness products, such as Nutraceutical products, supplements & Medical equipment.
                     </p>
                   </div>
                 </div>
@@ -101,7 +98,7 @@ const HomePage = () => {
                       Personal Care & Hygiene Essentials
                     </h3>
                     <p className="text-gray-600">
-                      Delivery of Daily wellness products such as toothbrushes, sanitizers, and hygiene items, Subscription & refill services.
+                      Delivery of daily wellness products such as sanitizers, masks, and skincare items. Subscription & Refill Services
                     </p>
                   </div>
                 </div>
@@ -168,7 +165,7 @@ const HomePage = () => {
               Reach our <span className="text-teal-500">Help Desk</span> for support
             </h2>
             <p className="text-gray-600">
-              Get expert assistance and personalized care solutions for your health and wellness needs.
+              Questions? Need assistance? Our dedicated support team is here to help you every step of the way:
             </p>
           </div>
           
@@ -189,9 +186,9 @@ const HomePage = () => {
                 <div className="flex items-start space-x-3">
                   <span className="text-teal-600">📍</span>
                   <span className="text-gray-700">
-                    NO-187,1ST FLOOR, GROUND FLOOR, Flat No:- 
-                    A4,G4, A2,RANGANATHAPURA, Ramnagar - 
-                    Kerala PIN Code: 673302
+                    UNITED PLAZA, GROUND FLOOR, Flat No.: 18/140A1, A2:- <br />
+                    RAMANATTUKARA, Kozhikode - Kerala <br />
+                    PIN Code: 673032
                   </span>
                 </div>
               </div>
