@@ -36,7 +36,7 @@ const Footer = () => {
             <h3 className="font-semibold text-gray-900 mb-4">Contact Us</h3>
             <div className="space-y-2 text-sm text-gray-600">
               <p>UNITED PLAZA, GROUND FLOOR,</p>
-              <p> Flat No.: 18/140A1, A2, Ranganathapura,</p>
+              <p> Flat No.: 18/140A1, A2, RAMANATTUKARA,</p>
               <p>Kozhikode - Kerala PIN Code: 673032</p>
               <p>email : medikart.rk@Gmail.com </p>
               <p>Contact Now! +91 984 742 0555</p>
