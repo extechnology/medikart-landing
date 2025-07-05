@@ -39,6 +39,7 @@ const Footer = () => {
               <p> Flat No.: 18/140A1, A2, RAMANATTUKARA,</p>
               <p>Kozhikode - Kerala PIN Code: 673032</p>
               <p>email : medikart.rk@Gmail.com </p>
+              <p onClick={() => window.open("https://wa.me/919744520555", "_blank")} className="cursor-pointer"><i className="fa-brands fa-whatsapp"></i> +91 974 452 0555</p>
               <p>Contact Now! +91 984 742 0555</p>
             </div>
           </div>

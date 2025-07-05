@@ -29,7 +29,7 @@ const HomePage = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="./home-img-1.png" 
+                src="./medikart.jpg" 
                 alt="Family health" 
                 className="rounded-lg shadow-sm w-[80%] "
               />
